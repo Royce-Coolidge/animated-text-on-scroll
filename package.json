@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "deploy": "vite build && wrangler pages deploy dist --project-name developer-for-designers"
   },
   "keywords": [],
   "author": "",
