@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const keywords = [
     "designer",
-    "developer",
+    "code",
     "squarespace",
     "webflow",
     "shopify",
@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "storytelling",
     "interactive",
     "vision",
+    "animation",
+    "micro-interactions"
   ];
 
   animeTextParagraphs.forEach((paragraph) => {

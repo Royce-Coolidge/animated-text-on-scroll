@@ -31,6 +31,11 @@ section {
   border-radius: 2rem;
 }
 
+a {
+  color: #141414;
+  text-decoration: underline;
+}
+
 .copy-container h1 {
   width: 70%;
   color: #141414;
@@ -38,6 +43,13 @@ section {
   font-weight: 900;
   line-height: 1;
 }
+
+.sub-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+  line-height: 1;
+  opacity: 0.8;
+margin-top: 1rem;}
 
 .hero .copy-container {
   background: #fe6d38;
@@ -96,6 +108,22 @@ section {
   color: #141414;
 }
 
+.selected {
+  content: "";
+ 
+  transform: translate(-50%, -50%);
+  width: calc(100% + 1rem);
+  height: calc(100% + 0.4rem);
+  color: #fff;
+  border-radius: 2rem;
+  margin-right: 0.1rem;
+  margin-bottom: 0.15rem;
+  padding: 0.1rem 0.2rem;
+  z-index: -1;
+  background-color: #7a78ff;
+
+}
+
 .anime-text .word span.keyword::before {
   content: "";
   position: absolute;
@@ -116,14 +144,14 @@ section {
 }
 
 .anime-text .word span.keyword.code::before,
-.anime-text .word span.keyword.expression::before,
-.anime-text .word span.keyword.storytelling::before {
+.anime-text .word span.keyword.3D::before,
+.anime-text .word span.keyword.animation::before {
   background-color: #fe6d38;
 }
 
 .anime-text .word span.keyword.squarespace::before,
 .anime-text .word span.keyword.intuitive::before,
-.anime-text .word span.keyword.vision::before {
+.anime-text .word span.keyword.micro-interactions::before {
   background-color: #c6fe69;
 }
 
